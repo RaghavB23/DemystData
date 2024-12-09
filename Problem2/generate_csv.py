@@ -22,6 +22,6 @@ def generate_csv(file_name, num_rows):
             })
 
 if __name__ == "__main__":
-    # Generate a 2GB CSV file (~10 million rows)
+    # Generate a 2GB CSV file (~30 million rows)
     generate_csv("sample_data1.csv", num_rows=30_000_000)
     print("CSV file generated: sample_data1.csv")
