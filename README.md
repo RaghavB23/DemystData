@@ -12,11 +12,11 @@ Download the Image: Visit Google Drive to download the https://drive.google.com/
 Load the Docker Image: Use the following command to load the Docker image into your Docker environment:
 
 bash
-docker load < problem2.tar
+< docker load < problem2.tar >
 Run the Image: Start the container with:
 
 bash
-docker run --rm problem2
+< docker run --rm problem2 >
 
 
 
